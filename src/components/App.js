@@ -5,7 +5,7 @@ import Tabs from './Tabs';
 // Components
 import HelloReact from './HelloReact';
 import LoremIpsum from './LoremIpsum';
-import LoginForm from './LoginForm';
+import Login from './Login';
 
 class App extends Component {
 	constructor() {
@@ -29,7 +29,7 @@ class App extends Component {
 
 					{this.state.activeTab === 0 ? <HelloReact /> : null}
 					{this.state.activeTab === 1 ? <LoremIpsum /> : null}
-					{this.state.activeTab === 2 ? <LoginForm />: null}
+					{this.state.activeTab === 2 ? <Login />: null}
 				</div>
 				
 			</section>	
